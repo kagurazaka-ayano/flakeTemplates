@@ -1,0 +1,4 @@
+# by default it is nightly, use whatever toolchain you want
+[toolchain]
+channel = "nightly"
+components = ["rust-src", "cargo", "rust-analyzer", "rustfmt", "clippy"]
