@@ -11,6 +11,14 @@
         path = ./rust-with-ci;
         description = "Rust toolchain with github CI configuration";
       };
+      cmake-exe = {
+        path = ./cmake-exe;
+        description = "Cmake executable project";
+      };
+      cmake-lib = {
+        path = ./cmake-lib;
+        description = "Cmake library project";
+      };
     };
   };
 }
