@@ -19,6 +19,10 @@
         path = ./cmake-lib;
         description = "Cmake library project";
       };
+      devshell = {
+        path = ./devshell;
+        description = "Arbitrary dev shell with flake utils";
+      };
     };
   };
 }
