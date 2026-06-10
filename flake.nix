@@ -23,6 +23,10 @@
         path = ./devshell;
         description = "Arbitrary dev shell with flake utils";
       };
+      module = {
+        path = ./mod;
+        description = "Generic NixOS/HomeManager module flake template";
+      };
     };
   };
 }
